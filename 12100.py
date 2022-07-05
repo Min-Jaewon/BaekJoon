@@ -35,6 +35,6 @@ class Move:
             moved_board[i][0]=moved_board[i][0]+board[i][0]
         return moved_board
     
-moved=Move.right(board)
+moved=Move.Right(board)
 for i in range(n):
     print(moved[i])
